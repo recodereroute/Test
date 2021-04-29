@@ -24,6 +24,8 @@ public class Ex08Test {
 		
 		for(int key: map.keySet()) {
 			System.out.println(map.get(key).getGoodsName() + " : " + map.get(key).getGoodsPrice());
+			
+		System.out.println("pull 연습중입니다.");
 		}
 	}
 
