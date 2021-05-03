@@ -22,5 +22,9 @@ public class Ex11Test {
 		sdf = new SimpleDateFormat("y년 M월 d일 a h시 m분 s초"); // 한글자씩 입력해도 별 사오간 없는듯 a :오후
 		strNow2 = sdf.format(now);
 		System.out.println(strNow2);
+		
+		sdf = new SimpleDateFormat("y년 M월 d일 W주차 a HH시 m분 s초");
+		strNow2 = sdf.format(now);
+		System.out.println(strNow2);
 	}
 }
