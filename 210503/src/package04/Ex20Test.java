@@ -8,7 +8,7 @@ public class Ex20Test {
 
 	public static void main(String[] args) {
 		Map<String, Student> map = new HashMap<String, Student>(); // 아이디
-		
+		System.out.println("Hello JAVA");
 		Student std = new Student("123456", "이숭무"); // 비밀번호
 		map.put("high1", std);
 		std = new Student("234567", "이상범");
