@@ -17,6 +17,7 @@ public class Ex09Test {
 		
 		ex = new Ex09("ID_4", "Email_4", "name_4");
 		map.put(ex.getId(), ex);
+		// 해쉬맵은 저장이 순서대로 되진 않는다.
 		
 		for(String key : map.keySet()) {
 			System.out.println(map.get(key).getEmail() + " : "+ map.get(key).getName());
