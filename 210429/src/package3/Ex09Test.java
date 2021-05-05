@@ -22,9 +22,7 @@ public class Ex09Test {
 		for(String key : map.keySet()) {
 			System.out.println(map.get(key).getEmail() + " : "+ map.get(key).getName());
 		}
-		
-		System.out.println("push 연습중입니다.");
-		
+				
 
 	}
 
