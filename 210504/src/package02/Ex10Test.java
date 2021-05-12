@@ -15,7 +15,7 @@ public class Ex10Test {
 		int money;
 		String name;
 		Account acc = null;
-		
+				
 		while(true) {
 			System.out.println("계좌등록 : 1 | 입금 : 2 | 출금 : 3 | 계좌 정보 : 4 | 종료 : 5");
 			System.out.print("해당번호를 입력하세요 : ");
